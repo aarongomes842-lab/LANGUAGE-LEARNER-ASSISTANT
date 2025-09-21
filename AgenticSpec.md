@@ -9,28 +9,28 @@ This document describes all specialized agents, their roles, responsibilities, a
 
 ---
 
-### Planner Agent
+## Planner Agent
 **Role:** Orchestrates conversation and coordinates all agents.  
 **Responsibilities:** Clarify ambiguous requests, decide agent sequence, handle errors, provide final responses.  
 **Tools:** LLM, agent invocation, conversation memory.
 
 ---
 
-### Conversation Agent
+## Conversation Agent
 **Role:** Handles natural dialogue and keeps conversation flowing.  
 **Responsibilities:** Greet user, present prompts, adjust tone.  
 **Tools:** LLM, prompt templates, memory buffer.
 
 ---
 
-### Grammar Correction Agent
+## Grammar Correction Agent
 **Role:** Detects and corrects grammar/spelling mistakes.  
 **Responsibilities:** Identify errors, provide polite corrections, track recurring mistakes.  
 **Tools:** Grammar rules/APIs, LLM, memory agent.
 
 ---
 
-### Vocabulary Agent
+## Vocabulary Agent
 **Role:** Introduces new words and expressions.  
 **Responsibilities:** Explain word meanings, provide examples/pronunciation, track difficult words.  
 **Tools:** Dictionary/translation APIs, LLM, memory agent.
@@ -44,7 +44,7 @@ This document describes all specialized agents, their roles, responsibilities, a
 
 ---
 
-### Memory Agent
+## Memory Agent
 **Role:** Maintains context, tracks weak words, stores progress.  
 **Responsibilities:** Remember previous interactions, recall preferences and weak vocabulary.  
 **Tools:** Conversation buffer, persistent storage.
