@@ -51,21 +51,21 @@ This document describes all specialized agents, their roles, responsibilities, a
 
 ---
 
-### CSV Loader Agent
+## CSV Loader Agent
 **Role:** Loads user-provided CSV files containing vocabulary or exercises.  
 **Responsibilities:** Read files, handle errors, structure data, notify planner.  
 **Tools:** Pandas, file system access, validation routines.
 
 ---
 
-### Data Analysis Agent
+## Data Analysis Agent
 **Role:** Analyze user performance and imported data to generate insights.  
 **Responsibilities:** Identify patterns, compute statistics, highlight weak areas.  
 **Tools:** Pandas, NumPy, visualization libraries, memory integration.
 
 ---
 
-### Report Generation Agent
+## Report Generation Agent
 **Role:** Generate user-friendly progress reports.  
 **Responsibilities:** Summarize insights, include charts, save or export reports.  
 **Tools:** Markdown/PDF/HTML formatters, visualization libraries, file system access.
