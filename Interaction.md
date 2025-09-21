@@ -1,15 +1,15 @@
 
 ---
 
-## 📄 Interaction.md
+## Interaction.md
 ```markdown
-# Interaction Guide
+Interaction Guide
 
 This document shows sample dialogues and the workflow for the **Language Learning Partner**.
 
 ---
 
-## Happy Path: Basic Practice
+Happy Path: Basic Practice
 
 **User:** "I want to practice German today."  
 **AI:** "Hallo! Wunderbar, lass uns anfangen. How do you say 'Good morning' in German?"  
