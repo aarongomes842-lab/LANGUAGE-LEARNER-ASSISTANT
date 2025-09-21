@@ -65,23 +65,3 @@ Data Analysis Agent identifies trends and areas for improvement.
 Report Generation Agent produces a structured progress report.
 
 Planner Agent collates outputs and provides final feedback to the user.
-
-
-flowchart LR
-    User([User starts conversation / asks question]) --> Planner[Planner Agent]
-    Planner --> Conversation[Conversation Agent]
-    Conversation --> Planner
-    Planner --> Grammar[Grammar Correction Agent]
-    Grammar --> Planner
-    Planner --> Vocabulary[Vocabulary Agent]
-    Vocabulary --> Planner
-    Planner --> Difficulty[Difficulty / Progress Agent]
-    Difficulty --> Planner
-    Planner --> Memory[Memory Agent]
-    Memory --> Planner
-    Planner --> CSVLoader[CSV Loader Agent]
-    CSVLoader --> DataAnalysis[Data Analysis Agent]
-    DataAnalysis --> Planner
-    Planner --> ReportGen[Report Generation Agent]
-    ReportGen --> Planner
-    Planner --> Output["Final Feedback / Report to User"]
