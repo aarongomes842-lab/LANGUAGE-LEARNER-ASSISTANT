@@ -24,4 +24,3 @@ The system adapts to the user’s progress, tracks weak areas, and generates rep
 | `README.md` | Project overview, features, and getting started |
 | `Interaction.md` | Sample dialogues and workflow diagram |
 | `AgentSpec.md` | Detailed agent design, roles, responsibilities, and tools |
-| `.gitignore` | Files/folders to ignore (e.g., virtual environments) |
