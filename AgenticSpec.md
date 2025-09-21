@@ -64,4 +64,4 @@ This document describes all specialized agents, their roles, responsibilities, a
 ### Report Generation Agent
 **Role:** Generate user-friendly progress reports.  
 **Responsibilities:** Summarize insights, include charts, save or export reports.  
-**Tools:** Markdown/PDF/HTML formatters, visualization libraries, file system access.###
+**Tools:** Markdown/PDF/HTML formatters, visualization libraries, file system access.
