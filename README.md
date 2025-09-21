@@ -25,12 +25,3 @@ The system adapts to the user’s progress, tracks weak areas, and generates rep
 | `Interaction.md` | Sample dialogues and workflow diagram |
 | `AgentSpec.md` | Detailed agent design, roles, responsibilities, and tools |
 | `.gitignore` | Files/folders to ignore (e.g., virtual environments) |
-
----
-
-## 🚀 Getting Started
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/language-learning-partner.git
-   cd language-learning-partner
